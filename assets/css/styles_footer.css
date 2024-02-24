@@ -1,0 +1,44 @@
+.footer_principal {
+  padding-inline: 1rem;
+  padding-block: 2rem;
+  background-color: black;
+  display: grid;
+  grid-template-columns: 1fr;
+  row-gap: 1rem;
+  font-family: var(--font-fredoka);
+  font-family: 600;
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+}
+@media screen and (min-width: 480px) {
+  .footer_principal {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.footer_contenedor_logo {
+  display: grid;
+  place-items: center;
+}
+
+.footer_contenedor_logo img {
+  max-width: 300px;
+  width: 100%;
+}
+.footer_contenedor_contenido {
+  color: white;
+  text-align: center;
+}
+.footer_contenedor_contenido p {
+  padding-bottom: 1rem;
+}
+.footer_contenedor_redes_sociales a:first-child img {
+  border-radius: 50%;
+  background: white;
+}
+
+.footer_nombre_waldo {
+  color: yellow;
+  font-weight: 700;
+  font-family: var(--font-namdin);
+}

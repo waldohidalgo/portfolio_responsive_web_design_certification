@@ -1,0 +1,43 @@
+:root {
+  --font-namdin: "Namdhinggo", serif;
+  --font-fredoka: "Fredoka", sans-serif;
+  --font-vollkorn: "Vollkorn SC", serif;
+}
+main {
+  overflow-x: hidden;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+* {
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+a:hover {
+  color: inherit;
+}
+.separador {
+  margin-top: 7px;
+  width: 100%;
+  height: 5px;
+  background-color: red;
+}
+.separador_proyecto_final {
+  margin-top: 7px;
+  width: 100%;
+  height: 5px;
+  background-color: green;
+}
+.iframe_contenedor_proyecto {
+  display: none;
+}
+/*
+Configuración ScrollReveal segun libreria misma
+*/
+html.sr .load-hidden {
+  visibility: hidden;
+}

@@ -1,0 +1,81 @@
+.offcanvas {
+  font-family: var(--font-fredoka);
+}
+
+.titulo_menu_lateral {
+  text-align: center;
+  margin-bottom: 1rem;
+  font-weight: 700;
+  font-size: 1.5rem;
+  width: fit-content;
+  margin-inline: auto;
+}
+.offcanvas-body li {
+  list-style: none;
+}
+.menu_lateral_contenedor_secciones {
+  padding-left: 0;
+}
+
+.menu_lateral_titulo_seccion {
+  padding-left: 10px;
+  padding-block: 1rem;
+  -webkit-box-shadow: inset 0px 0px 0px 4px black;
+  -moz-box-shadow: inset 0px 0px 0px 4px black;
+  box-shadow: inset 0px 0px 0px 4px black;
+  margin-bottom: 0;
+  cursor: pointer;
+  position: relative;
+  background-color: #00283c;
+  color: white;
+}
+
+.menu_lateral_titulo_seccion::after {
+  content: "";
+  background-image: url("../../img/arrow_down.png");
+  background-size: cover;
+  margin-top: -4px;
+  width: 25px;
+  aspect-ratio: 1/1;
+  display: inline-block;
+  position: absolute;
+  right: 15px;
+  transition: transform 0.3s ease-in-out;
+  border: 2px solid black;
+  border-radius: 50%;
+}
+
+.expanded_titulo_seccion_menu_lateral::after {
+  transform: rotate(-180deg);
+}
+
+.menu_lateral_contenedor_subsecciones {
+  border-width: 0 1px 0 1px;
+  border-color: black;
+  border-style: solid;
+  padding-left: 0;
+  display: none;
+}
+.li_element_menu_lateral {
+  padding-block: 5px;
+
+  width: 100%;
+  overflow: auto;
+  background-color: lightblue;
+  cursor: pointer;
+  border-bottom: 1px solid black;
+  font-weight: 700;
+  font-family: var(--font-namdin);
+}
+.li_element_menu_lateral a {
+  padding-left: 1.5rem;
+  display: block;
+}
+.li_element_menu_lateral:hover {
+  background-color: black;
+  color: white;
+}
+.li_element_menu_lateral--proyecto_final {
+  background-color: yellow;
+  font-weight: 900;
+}

@@ -1,0 +1,39 @@
+#projects {
+  padding-block: 1rem;
+  border-bottom: 1px solid black;
+  background-color: #eeeeee;
+}
+
+.projects_title {
+  text-align: center;
+  font-family: var(--font-vollkorn);
+  font-weight: 700;
+}
+.projects_description {
+  text-align: center;
+  font-family: var(--font-fredoka);
+}
+
+.projects_container {
+  text-align: center;
+  list-style: none;
+  font-family: var(--font-namdin);
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+.project-tile {
+  display: flex;
+  justify-content: center;
+  padding-block: 5px;
+}
+.project-tile::before {
+  content: "";
+  display: inline-block;
+  background: url("../img/icons8-premio.gif");
+  width: 35px;
+  height: 35px;
+  background-size: cover;
+}
+.project-tile a:hover {
+  color: blue;
+}
