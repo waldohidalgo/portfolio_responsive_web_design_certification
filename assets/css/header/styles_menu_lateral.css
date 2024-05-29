@@ -5,6 +5,7 @@
 #navbar {
   position: fixed;
   top: 0;
+  z-index: 100;
 }
 .titulo_menu_lateral {
   text-align: center;
