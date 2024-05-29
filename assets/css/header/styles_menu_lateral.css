@@ -2,6 +2,10 @@
   font-family: var(--font-fredoka);
 }
 
+#navbar {
+  position: fixed;
+  top: 0;
+}
 .titulo_menu_lateral {
   text-align: center;
   margin-bottom: 1rem;

@@ -3,6 +3,8 @@
   background-color: #fdfd96;
   display: grid;
   place-items: center;
+  height: 100vh;
+  min-height: 500px;
 }
 
 .header_titulo {
